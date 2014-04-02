@@ -1,0 +1,1 @@
+web: gunicorn --pythonpath="$PWD/financial-independence-app" config.wsgi:application
